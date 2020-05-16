@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+        >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_background"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="FoodItems"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+    <EditText
+        android:id="@+id/addfoodtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <Button
+        android:id="@+id/decidefoodbuttion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:text="Decide Food Button"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+
+    -->
+</LinearLayout>
