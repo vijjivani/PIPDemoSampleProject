@@ -23,8 +23,14 @@ class ProjectClassDetails : AppCompatActivity() {
             startActivity(i)
         }
         color.setOnClickListener {
-            val i= Intent(this,LoginActivity::class.java)
+            val i= Intent(this,GalleryImageActivity::class.java)
             startActivity(i)
+        }
+
+        constraint.setOnClickListener {
+            val i= Intent(this,ConstraintActivity::class.java)
+            startActivity(i)
+
         }
 
 

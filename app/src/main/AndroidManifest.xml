@@ -25,6 +25,9 @@
             android:theme="@style/AppTheme.NoActionBar"/>
                 <activity android:name=".controller.FoodDetailsActivity"/>
 
+        <activity android:name=".controller.GalleryImageActivity"/>
+        <activity android:name=".controller.ConstraintActivity"/>
+
 
     </application>
 
